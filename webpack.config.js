@@ -1,7 +1,7 @@
 module.exports = {
     mode: process.env.NODE_ENV || "development",
     entry: [
-        "./src/index.js"
+        "./src/index.jsx?"
     ],
     output: {
         filename: "bundle.js",
